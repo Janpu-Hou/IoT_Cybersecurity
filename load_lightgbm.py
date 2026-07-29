@@ -1,3 +1,6 @@
+from sklearn.metrics import accuracy_score, classification_report
+import joblib
+
 # Load the model from disk
 loaded_model = joblib.load(model_filename)
 print(f"Model loaded from {model_filename}")
